@@ -60,7 +60,7 @@ body {
 }
 
 .logo-img {
-    height: 60px; /* Reducido ligeramente de 70px a 60px para hacer navbar más compacto */
+    height: 60px;
     width: auto;
     object-fit: contain;
 }
@@ -79,7 +79,7 @@ body {
     text-decoration: none;
     color: var(--text-dark);
     font-weight: 500;
-    font-size: 0.9rem; /* Reducido el tamaño de fuente */
+    font-size: 0.9rem;
     transition: color 0.3s ease;
     position: relative;
 }
@@ -116,10 +116,10 @@ body {
 
 .hero-background {
     position: absolute;
-    top: 0;
+    top: 80px;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 80px);
     z-index: 0;
 }
 
