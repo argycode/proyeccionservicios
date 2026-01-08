@@ -86,8 +86,8 @@
                     <div class="service-icon">
                         <img src="{{ asset('images/logo-ps.png') }}" alt="Proyección Servicios" class="service-logo">
                     </div>
-                    <h3 class="service-title">Mini Vactor</h3>
-                    <p class="service-description">Servicio soluciones de evacuación de fluidos. Nos specializamos en la extracción de limpiezas del suelo utilizando tecnología Mini Vactor de desarrollo propio.</p>
+                    <h3 class="service-title">Tanque Móvil de Presión y Vacío</h3>
+                    <p class="service-description">Servicio de soluciones de evacuación de fluidos. Nos especializamos en la extracción de limpiezas del suelo utilizando tecnología de desarrollo propio.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
@@ -171,6 +171,44 @@
                             <p><a href="tel:+542995928725">+54 9 2995 92 8725</a></p>
                         </div>
                     </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Dirección</h3>
+                            <p>Santamaria 35, Q8300 Neuquén</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestra Ubicación</h2>
+                <p class="section-subtitle">Visítanos en nuestra oficina</p>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps?q=Santamaria+35,+Q8300+Neuquén&output=embed" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 12px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <div class="map-link">
+                    <a href="https://share.google/BWDTeJzsA5eDhkcqY" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        Ver en Google Maps
+                    </a>
                 </div>
             </div>
         </div>
